@@ -6,6 +6,8 @@ Tested: Working Video 720p, 1080p & Sound
 
 The following library is required to synthesize the Gauntlet core.
 
+Must be placed in: /rtl/lib/jt51
+
 https://github.com/jotego/jt51/
 
 # Atari Gauntlet FPGA Arcade
