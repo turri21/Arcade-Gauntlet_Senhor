@@ -4,12 +4,11 @@ Tested: Working Video 720p, 1080p & Sound
 
 *WARNING:* In order to play Vindicators part 2, you must run the python script "descramble_2J.py 136059-1184.2j 136059-1184.des.2j" then copy the binary output file 136059-1184.des.2j into the zip file with the original ROMs.
 
-The following library is required to synthesize the Gauntlet core.
+The following library is required to synthesize the Gauntlet core: https://github.com/jotego/jt51/
 
 Must be placed in: /rtl/lib/jt51
 
-https://github.com/jotego/jt51/
-
+___
 # Atari Gauntlet FPGA Arcade
 by Alex (https://github.com/d18c7db)..
 
