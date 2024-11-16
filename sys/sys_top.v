@@ -87,12 +87,12 @@ module sys_top
 	//output        SDIO_CLK,
 
 	//////////// I/O ///////////
-//	output        LED_USER,
-//	output        LED_HDD,
-//	output        LED_POWER,
-//	input         BTN_USER,
-//	input         BTN_OSD,
-//	input         BTN_RESET,
+	output        LED_USER,
+	output        LED_HDD,
+	output        LED_POWER,
+	input         BTN_USER,
+	input         BTN_OSD,
+	input         BTN_RESET,
 `endif
 
 	////////// I/O ALT /////////
@@ -143,7 +143,7 @@ wire SDIO_CMD = 1'b1;
 wire [6:0] USER_IO;
 wire SD_SPI_MISO = 1'b1;
 
-wire BTN_RESET = 1'b1, BTN_OSD = 1'b1, BTN_USER = 1'b1;
+//wire BTN_RESET = 1'b1, BTN_OSD = 1'b1, BTN_USER = 1'b1;
 
 //////////////////////  Secondary SD  ///////////////////////////////////
 wire SD_CS, SD_CLK, SD_MOSI, SD_MISO, SD_CD;
